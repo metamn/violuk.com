@@ -15,6 +15,9 @@ const Home = () => {
       <ReactPlayer
         url="https://vimeo.com/360846945"
         playing={true}
+        volume={0.5}
+        muted={true}
+        controls={true}
         width="100vw"
         height="100vh"
       />
